@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="dummy.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="form-box">
+			<div class="btn-box">
+				<div id="btn"></div>
+				<button type="button" class="toggle-btn" onclick="login()">Log In</button>
+				<button type="button" class="toggle-btn" onclick="register()">Register</button>
+			</div>
+			<div class="social-icons">
+				<img src="../icons/person.png">
+				<img src="../icons/groups.png">
+				<img src="../icons/page.png">
+				<img src="../icons/forum.png">
+			</div>
+			<form id="login" class="input-group">
+				<input type="text" class="input-field" placeholder="User Id" required>
+				<input type="text" class="input-field" placeholder="Enter password" required>
+				<input type="checkbox" class="check-box">
+				<span>Remember password</span>
+				<button type="submit" class="submit-btn">Log In</button>
+			</form>
+			<form id="register" class="input-group">
+				<input type="text" class="input-field" placeholder="User Id" required>
+				<input type="text" class="input-field" placeholder="Email Id" required>
+				<input type="text" class="input-field" placeholder="Enter password" required>
+				<input type="checkbox" class="check-box">
+				<span>I agree terms&condition</span>
+				<button type="submit" class="submit-btn">Register</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="dummy.js"></script>
+</body>
+</html>
